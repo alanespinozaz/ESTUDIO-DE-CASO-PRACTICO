@@ -1,12 +1,15 @@
-Autores: 
+Autores:
+
 Espinoza Zambrano Alan Josue
+
 Lema Jurado Pedro Adrian
 
 Tutor:
+
 Ing. Ruano Lara Erick Leandro
 
 
-**Aplicativo web para la asignación de turnos y control de asistencia para una empresa camaronera. **
+**Aplicativo web para la asignación de turnos y control de asistencia para una empresa camaronera.**
 
 Este proyecto incluye:
 

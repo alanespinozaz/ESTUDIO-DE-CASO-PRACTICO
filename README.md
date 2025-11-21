@@ -154,7 +154,7 @@ MAIL_PASS=xxxx
 
 ---
 
-# 📄 **Scripts del Backend**
+# **Scripts del Backend**
 
 ```json
 "scripts": {

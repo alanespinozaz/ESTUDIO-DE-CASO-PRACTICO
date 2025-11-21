@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* === Estilos globales para MarinPack === */
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: 'Inter', sans-serif;
+}
+
+/* === Contenedor general === */
+.page-container {
+  padding: 1.5rem;
+}
+
+/* === Títulos principales === */
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007acc;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #007acc20;
+  padding-bottom: 0.5rem;
+}
+
+/* === Tarjetas y secciones === */
+.card-container {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+}
+
+.card-container:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* === Tablas === */
+.table-style {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+}
+
+.table-style th {
+  background-color: #007acc10;
+  color: #007acc;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.table-style td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.table-style tr:hover {
+  background-color: #f1f5f9;
+  transition: 0.2s;
+}
+
+/* === Botones === */
+.btn-primary {
+  background-color: #007acc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #005ea8;
+}
+
+/* === Inputs === */
+input,
+select,
+textarea {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #f9fafb;
+  transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007acc;
+  background-color: #fff;
+}
+
+/* === Navegación lateral === */
+.sidebar {
+  background-color: #f1f5fb;
+  height: 100vh;
+  padding-top: 1.5rem;
+  border-right: 1px solid #dbeafe;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.6rem 1rem;
+  margin: 0.3rem 0;
+  border-radius: 8px;
+  color: #1e3a8a;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar .active {
+  background-color: #007acc;
+  color: white;
+}
+
+/* === Botón Salir === */
+.logout-btn {
+  background-color: #22c55e;
+  color: white;
+  font-weight: bold;
+  padding: 0.6rem;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 2rem;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #16a34a;
+}
